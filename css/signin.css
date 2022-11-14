@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-image: url("../img/blur.png");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center 0px;
+    background-color: white;
+    margin-top: 0px;
+    height: 969px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-wrap: nowrap;
+    display: block;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.form {
+    margin-top: 40px;
+    display: inline-block;
+    height: 330px;
+    padding: 20px;
+    animation: fadeIn 2s;
+    z-index: 995;
+    background-color:rgb(178, 255, 143);
+    margin-top: 350px;
+    margin-left: 33%;
+    box-shadow: 8px 6px 20px rgba(0, 0, 0, 0.4)  ; 
+}
+
+.signup {
+    background-color: rgb(255, 255, 255);
+    padding-left: 5px;
+    padding-top: 9px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    position: static;
+    margin-left: 0px;
+    margin-top: 22px;
+    float: left;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)  ; 
+}
+
+.login {
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    float: right;
+    position: static;
+    margin-top: 23px;
+    margin-left: -199px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4)  ; 
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    } 
+}
+
+.ticket p {
+    margin-top: 15px;
+}
+
+button {
+    margin-left: 513px;
+    margin-top: 15px;
+    height: 35px;
+    width: 90px;
+}
+
+.otherinfo {
+    margin-top: 40px;
+    float: right;
+    display: inline-block;
+    word-wrap: break-word;
+    overflow: bottom;
+    margin-right: 300px;
+    size: 150px;
+}
+
+label {
+    margin-top: 300px;
+    font-weight: bold;
+}
+
+input {
+    width: 209px;
+    padding: 12px;
+    margin-top: 8px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+textarea {
+    height: 300px;
+    width: 600px;
+    margin-top: 9px;
+}
+
+.otherinfo img {
+    max-width: 15%;
+    float: left;
+    padding: px 10px;
+    display: inherit;
+}
+
+.otherinfo {
+    padding: 15px;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    } 
+}
+
+.otherinfo a {
+    display: block;
+    margin-top: 19px;
+    margin-left: 59px;
+    height: 23px;
+    row-gap: 10px;
+    margin-bottom: 60px;
+    font-size: 27px;
+    padding-left: 30px;
+    padding-top: 18px;
+}
+
+.otherinfo email {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+#logos {}
+
+.creds a {
+    display: grid;
+    height: 10px;
+    row-gap: 20px;
+    vertical-align: top;
+    margin-bottom: 60px;
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY (0);
+    opacity: 1;
+}

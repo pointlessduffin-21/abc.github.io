@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="Hello World" content="width=device-width, initial-scale=1.0">
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <title>Enrollment Manager</title>
+    <div class="header" id="myHeader">
+        <link href="../css/header.css" rel="stylesheet" type="text/css"> 
+        <img src="../img/banner.png">
+        <a href="../signin.html" class="signin">Sign In</button>
+        <a href="../contact.html">Contact Us</a>
+        <a href="../about.html">About Us</a>
+        <a href="../courses.html">Course Schedule</a>
+        <a href="../coursed.html">Course Details</a>
+        <a href="../index.html">Home</a>
+    </div>  
+<script src="script2.js"></script>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>  
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <fieldset class="form">
+    <form id="form">
+        <h1 style="text-align: center;">Enrollment Manager</h1>
+        <br />
+        <label for="first">First Name:</label><br />
+                    <input type="text" id="first" name="first"><br><br>
+                    <label for="last">Last Name:</label><br />
+                    <input type="text" id="last" name="last"><br><br>
+                    <label for="email">Email Address:</label><br />
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="birthdate">Birthdate:</label><br />
+                    <input type="text" id="birthdate" name="birthdate"><br><br>
+                    <label for="address">Address:</label><br />
+                    <input type="text" id="address" name="address"><br><br>
+                    <label for="course">Course:</label><br />
+                    <input type="text" id="course" name="course"><br><br>
+                    <label for="sex">Sex:</label><br />
+                    <select type="text" name="sex" id="sex" style="font-size: 18px;">
+                        <option value="male" style="font-size: 18px;">Male</option>
+                        <option value="female" style="font-size: 18px;">Female</option>
+                    </select> <br /> <br />
+                    <input type="button" value="Submit" id="btn" onclick="Submit()">
+                    <input type="reset" value="Reset">
+    </form>
+</fieldset>
+
+<br>
+<div id="msg" class="msg"></div>
+
+<fieldset class="output">
+    <table border="2" id="table">
+        <tr>
+            <h1 style="text-align: center;">Table</h1>
+            <td class=".col">First Name</td>
+            <td class=".col">Last Name</td>
+            <td class=".col">Email Address</td>
+            <td class=".col">Birthdate</td>
+            <td class=".col">Address</td>
+            <td class=".col">Course</td>
+            <td class=".col">Sex</td>
+            <td class=".col">Action</td>
+        </tr>
+</fieldset>
+</div>
+</body>
+
+</html>
